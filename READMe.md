@@ -1,4 +1,4 @@
-# Flask E-commerce Application (Modified Version) 
+# 🛒 Flask E-commerce Application (Modified Version) 
 
 📦 A Flask-based E-commerce web application featuring user authentication, cart management, admin controls, and integrated payment gateways like Razorpay.
 
@@ -36,7 +36,7 @@
 
 - ✅ Refactored code structure into a `website/` package
 - ✅ Customized UI styling
-- ✅ Added Razpayment modules
+- ✅ Added Razorpay payment modules
 - ✅ Updated `README.md` and cleaned dependencies
 - ✅ Integrated Flask authentication and form validation
 
