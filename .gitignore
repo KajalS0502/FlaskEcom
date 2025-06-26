@@ -1,0 +1,16 @@
+# Virtual environment
+venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+
+# SQLite DB (if used)
+*.sqlite3
+
+# VS Code or PyCharm specific (optional)
+.idea/
+*.log

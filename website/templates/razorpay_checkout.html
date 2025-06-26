@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Complete Payment</title>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+</head>
+<body>
+    <h2>Pay ₹{{ amount }}</h2>
+    <button id="rzp-button">Pay Now</button>
+
+    <script>
+        var options = {
+            "key": "{{ razorpay_key_id }}",
+            "amount": "{{ amount * 100|int }}",
+            "currency": "INR",
+            "name": "Amazon Clone",
+            "description": "Test Transaction",
+            "order_id": "{{ razorpay_order_id }}",
+            "handler": function (response) {
+                alert("Payment successful! ID: " + response.razorpay_payment_id);
+                window.location.href = "/confirm-order?payment_id=" + response.razorpay_payment_id;
+            },
+            "prefill": {
+                "name": "{{ current_user.username }}",
+                "email": "{{ current_user.email }}",
+                "contact": "9999999999"
+            },
+            "theme": {
+                "color": "#F37254"
+            }
+        };
+        var rzp = new Razorpay(options);
+        document.getElementById('rzp-button').onclick = function(e) {
+            rzp.open();
+            e.preventDefault();
+        };
+    </script>
+</body>
+</html>
