@@ -7,20 +7,20 @@
 
 ---
 
-## 🛍️ Features
+## Features
 
-- 👤 Customer authentication (sign up, sign in, password reset)
-- 🔎 Product search and view
-- 🛒 Add to cart & checkout functionality
-- 💳 Payment gateway integration (Razorpay)
-- 🧑‍💼 Admin dashboard for managing:
+-  Customer authentication (sign up, sign in, password reset)
+-  Product search and view
+-  Add to cart & checkout functionality
+-  Payment gateway integration (Razorpay)
+-  Admin dashboard for managing:
   - Product stock
   - Order status
-- 📄 SQLite backend for storage
+-  SQLite backend for storage
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - Python 3.8+
 - Flask
@@ -32,13 +32,13 @@
 
 ---
 
-## 🛠️ My Modifications
+## My Modifications
 
-- ✅ Refactored code structure into a `website/` package
-- ✅ Customized UI styling
-- ✅ Added Razorpay payment modules
-- ✅ Updated `README.md` and cleaned dependencies
-- ✅ Integrated Flask authentication and form validation
+- Refactored code structure into a `website/` package
+- Customized UI styling
+- Added Razorpay payment modules
+- Updated `README.md` and cleaned dependencies
+- Integrated Flask authentication and form validation
 
 ---
 
@@ -67,12 +67,12 @@ docker run -itd -p 8034:80 monish247/ecommerce_python_image:latest
 ```
 
 ---
-## 🧾 Requirements
+## Requirements
 
 See requirements.txt in this repo for all dependencies.
 
 ---
-## 📌 Credits
+## Credits
 
 This project is based on:
 
@@ -82,7 +82,7 @@ This project is based on:
 Both are licensed under the MIT License and reused here with minor changes.
 
 ---
-## 🙋‍♀️ About Me
+## About Me
 Hi! I'm Kajal Singh (@KajalS0502). I'm learning Flask, backend development, and how to integrate third-party services like payment gateways.
 
 Feel free to fork this repo or connect if you'd like to collaborate or give feedback.
