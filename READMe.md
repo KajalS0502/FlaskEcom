@@ -14,8 +14,8 @@
 -  Add to cart & checkout functionality
 -  Payment gateway integration (Razorpay)
 -  Admin dashboard for managing:
-  - Product stock
-  - Order status
+   -  Product stock
+   -  Order status
 -  SQLite backend for storage
 
 ---
